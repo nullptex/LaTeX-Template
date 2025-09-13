@@ -1,0 +1,43 @@
+%! TeX root = template.tex
+
+\input{preamble.tex}
+
+
+\title{Template}
+\author{Name}
+\date{}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+\section{Definition of Limit}
+
+\begin{tcolorbox}[colframe=nord11!, title=$\varepsilon - \delta$ definition of limit]
+Let $f$ be a function defined on an open interval containing $c$ (except possibly at $c$), and let $L$ be a real number. The statement
+$$
+\lim_{x\to\infty} f(x) = L
+$$
+means that for each $\varepsilon > 0$ there exists a $\delta > 0$ such that if
+$$
+0 < \left| x-c \right| < \delta
+$$
+then
+$$
+\left| f(x) - L \right| < \varepsilon
+$$
+\end{tcolorbox}
+
+\bigskip
+
+\begin{tcolorbox}[colframe=nord9, title=\textbf{THEOREM 2.4} The Constant Multiple Rule]
+If $f$ is a differentiable function and $c$ is a real number, then $cf$ is also differentiable and
+$$
+\frac{d}{dx}\left[ cf(x) \right] = cf'(x)
+$$
+
+
+\end{tcolorbox}
+
+\end{document}
