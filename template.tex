@@ -1,20 +1,20 @@
 %! TeX root = template.tex
 
-\input{preamble.tex}
-
-
-\title{Template}
-\author{Name}
-\date{}
+\input{preamble}
+\input{macro}
 
 \begin{document}
 
-\maketitle
-\newpage
+\begin{theorembox}[Theorem 2.4]
+If $f$ is a differentiable function and $c$ is a real number, then $cf$ is also differentiable and
+$$
+\frac{d}{dx}\left[ cf(x) \right] = cf'(x)
+$$
+\end{theorembox}
 
-\section{Definition of Limit}
+\bigskip
 
-\begin{tcolorbox}[colframe=nord11!, title=$\varepsilon - \delta$ definition of limit]
+\begin{definitionbox}[$\varepsilon - \delta$ definition of limit]
 Let $f$ be a function defined on an open interval containing $c$ (except possibly at $c$), and let $L$ be a real number. The statement
 $$
 \lim_{x\to\infty} f(x) = L
@@ -27,17 +27,15 @@ then
 $$
 \left| f(x) - L \right| < \varepsilon
 $$
-\end{tcolorbox}
+\end{definitionbox}
 
 \bigskip
 
-\begin{tcolorbox}[colframe=nord9, title=\textbf{THEOREM 2.4} The Constant Multiple Rule]
-If $f$ is a differentiable function and $c$ is a real number, then $cf$ is also differentiable and
-$$
-\frac{d}{dx}\left[ cf(x) \right] = cf'(x)
-$$
 
-
-\end{tcolorbox}
+\begin{examplebox}[Example 1. Evaulating Basic Limits]
+$$
+\lim_{x\to\infty} 3 = 3
+$$
+\end{examplebox}
 
 \end{document}
