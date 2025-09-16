@@ -2,9 +2,13 @@
 
 $\LaTeX$ Template for notes and works, including `preamble.tex`, `macro.tex` and `template.tex`.
 
-## Macros
+## File Structure
 
-The `macro.tex` is still working.
+`
+├── macro.tex    // Include \newcommand. 
+├── preamble.tex // Include packages, colors(Nord theme), and file settings.
+└── template.tex // The template file and the demostration the usage of preamble and macro.
+`
 
 ## Problems
 
