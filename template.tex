@@ -3,39 +3,48 @@
 \input{preamble}
 \input{macro}
 
+\title{Template}
+\author{}
+\date{}
+
 \begin{document}
+\maketitle
+
+\newpage
+
+\section{tcolorbox example}
 
 \begin{theorembox}[Theorem 2.4]
-If $f$ is a differentiable function and $c$ is a real number, then $cf$ is also differentiable and
-$$
+If \(f\) is a differentiable function and \(c\) is a real number, then \(cf\) is also differentiable and
+\[
 \frac{d}{dx}\left[ cf(x) \right] = cf'(x)
-$$
+\]
 \end{theorembox}
 
 \bigskip
 
 \begin{definitionbox}[$\varepsilon - \delta$ definition of limit]
-Let $f$ be a function defined on an open interval containing $c$ (except possibly at $c$), and let $L$ be a real number. The statement
-$$
+Let \(f\) be a function defined on an open interval containing \(c\) (except possibly at \(c\)), and let \(L\) be a real number. The statement
+\[
 \lim_{x\to\infty} f(x) = L
-$$
-means that for each $\varepsilon > 0$ there exists a $\delta > 0$ such that if
-$$
+\]
+means that for each \(\varepsilon > 0\) there exists a \(\delta > 0\) such that if
+\[
 0 < \left| x-c \right| < \delta
-$$
+\]
 then
-$$
+\[
 \left| f(x) - L \right| < \varepsilon
-$$
+\]
 \end{definitionbox}
 
 \bigskip
 
 
 \begin{examplebox}[Example 1. Evaulating Basic Limits]
-$$
+\[
 \lim_{x\to\infty} 3 = 3
-$$
+\]
 \end{examplebox}
 
 \end{document}

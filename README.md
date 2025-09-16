@@ -6,7 +6,7 @@ $\LaTeX$ Template for notes and works, including `preamble.tex`, `macro.tex` and
 
 ```
 ├── macro.tex    // Include \newcommand. 
-├── preamble.tex // Include packages, colors(Nord theme), and file settings.
+├── preamble.tex // Include packages, colors (Nord theme), and file settings.
 └── template.tex // The template file and the demostration the usage of preamble and macro.
 ```
 
